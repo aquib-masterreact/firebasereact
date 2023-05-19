@@ -1,16 +1,19 @@
-import Header from "./Header";
-import Navbar from './Navbar';
-import HowItWorks from "./HowItWorks";
-import Aboutus from "./Aboutus";
-import Services from './Services';
+import Home from "./Home";
+import { Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Contacts from "./pages/Contacts";
+import Service from "./pages/Service";
+import Error from "./pages/Error";
 function App() {
   return (
     <>
-    <Navbar/>
-    <Header/>
-    <HowItWorks/>
-    <Aboutus/>
-    <Services/>
+   <Routes>
+    <Route exact path="/" Component={Home}></Route>
+    <Route path="/about" Component={About}></Route>
+    <Route path="/contacts" Component={Contacts}></Route>
+    <Route path="/service" Component={Service}></Route>
+    <Route path="/error" Component={Error}></Route>
+   </Routes>
     </>
   );
 }
