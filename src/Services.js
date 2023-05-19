@@ -3,6 +3,7 @@ import "./App.css";
 import serviceapi from "./API/serviceApi.js";
 
 const Services = () => {
+  // eslint-disable-next-line no-unused-vars
   const [serviceData, setServiceData] = useState(serviceapi);
   return (
     <>
