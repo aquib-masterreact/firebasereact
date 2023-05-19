@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import workapi from "./API/WorkApi.js";
 import './App.css';
 const HowItWorks = () => {
+  // eslint-disable-next-line no-unused-vars
   const [workData, setWorkData] = useState(workapi);
   console.log(workData);
   return (

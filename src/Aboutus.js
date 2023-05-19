@@ -3,6 +3,7 @@ import howToUseApp from "./API/HowToUse.js";
 import "./App.css";
 
 const Aboutus = () => {
+  // eslint-disable-next-line no-unused-vars
   const [aboutData, setAboutData] = useState(howToUseApp);
   return (
     <>

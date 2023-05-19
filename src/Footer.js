@@ -12,16 +12,16 @@ const Footer = () => {
                   <h2>Company</h2>
                   <ul>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                   </ul>
                 </div>
@@ -30,16 +30,16 @@ const Footer = () => {
                   <h2>Support</h2>
                   <ul>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                   </ul>
                 </div>
@@ -48,16 +48,16 @@ const Footer = () => {
                   <h2>Services</h2>
                   <ul>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/">About</a>
                     </li>
                   </ul>
                 </div>
